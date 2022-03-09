@@ -30,19 +30,21 @@ Math Operators
 * parenthese can be used as an override to order of operations like math
 
 Strings
-  * Strings are always found within quotes
-Strings and Operators
-    * Operators change based on the data type e.g. 5 * 5 = 25 whereas 'alice' * 2 = 'alicealice'
-'+' = when used on string data types it conjoins them. however it cannot be used with a string type and int or float 
-e.g. 'alice' + 'bob' = 'alicebob'
+  - String(str pronounced 'stirs') - text values e.g. 'a', '3', 'hello world'
+  *Strings are always found within quotes
+   Strings and Operators
+      *Operators change based on the data type e.g. 5 * 5 = 25 whereas 'alice' * 2 = 'alicealice'
+      '+' = when used on string data types it conjoins them. however it cannot be used with a string type and int or float 
+      e.g. 'alice' + 'bob' = 'alicebob'
 
-'*' = the multiplication operator can be used with a str and int or a int or float and int or float 
-so no 'alice' * 'bob'
-but 'alice' * 5 = 'alicealicealicealicealice'
-    * the operator when used with a str type duplicate that str by the int
-    * a str type and a float type cannot be used together either
+      '*' = the multiplication operator can be used with a str and int or a int or float and int or float 
+      so no 'alice' * 'bob'
+      but 'alice' * 5 = 'alicealicealicealicealice'
+          * the operator when used with a str type duplicate that str by the int
+          * a str type and a float type cannot be used together either
     
 Variables 
+  - Variable - a way to store a single value
   Assignment  Statements - how you define what value is being stored in a variable
     Consists of the variables name an equal sign and the value being stored e.g. spam = 42
     The integer 42 is now stored within the variable spam e.g. spam + 2 = 44
