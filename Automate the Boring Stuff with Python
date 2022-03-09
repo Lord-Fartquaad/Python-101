@@ -9,12 +9,13 @@ Tips
 Definitions
 - Data Types - A category for values e.g. integer
 - Integer(int) - Values that are whole numers e.g. -1, 0, 1
-- Floating-Point numbers(floats) - values that have a decimal e.g. 1.0, 0.5, 1.234
-- Strings(strs pronounced 'stirs') - text values e.g. 'a', '3', 'hello world'
+- Floating-Point number(float) - values that have a decimal e.g. 1.0, 0.5, 1.234
+- String(str pronounced 'stirs') - text values e.g. 'a', '3', 'hello world'
 - Variable - a way to store a single value
 - Assignment  Statements - how you define what value is being stored in a variable
 - File Editor - where you type an edit instructions in a program
 - Interactive Shell - any shell process where you type commands and get back outputs from those commands
+- Agrument - the value that is being passed to a function call e.g. hello word in the code print('hello world')
    
 
 Math Operators
@@ -32,14 +33,14 @@ Strings
   * Strings are always found within quotes
 Strings and Operators
     * Operators change based on the data type e.g. 5 * 5 = 25 whereas 'alice' * 2 = 'alicealice'
-'+' = when used on string data types it conjoins them. however it cannot be used with a string type and int or floats 
+'+' = when used on string data types it conjoins them. however it cannot be used with a string type and int or float 
 e.g. 'alice' + 'bob' = 'alicebob'
 
 '*' = the multiplication operator can be used with a str and int or a int or float and int or float 
 so no 'alice' * 'bob'
 but 'alice' * 5 = 'alicealicealicealicealice'
     * the operator when used with a str type duplicate that str by the int
-    * a str type and a floats type cannot be used together either
+    * a str type and a float type cannot be used together either
     
 Variables 
   Assignment  Statements - how you define what value is being stored in a variable
@@ -56,6 +57,47 @@ Variables
       - it cannot begin with a number
     Camelcase is a way to name variables
       Doesnt use underscores, starts the variable's name off with a lowercase, then each new name starts with a uppercase e.g. camel_case -> camelCase
+
+Comments 
+   comments start with # and ends at the next line. Comments can be added part way through a line
+   python ignores comments, allowing them to be used to:
+      - explain what your code/section of code is doing
+      - temporarily remove code for testing purposes (commenting out)
+
+Basic Functions (print(). input(), len(), str(), int(), float())
+   Print()
+      - displays the string value 
+      - print('hello world') = hello world, print() =  , print(hello world) = hello world is not definded or it prints assigned data, print(42) = 42(int), print('42') = 42(str)
+   input()
+      - waits for the 'enter' keystroke then evaluates to a STRING equal to the user's text
+         
+         e.g.  myName = input()
+               print('hello' + myName)
+               =
+               hello maxwell
+     len()
+         - when the function is passed a string value it evaluates the character number in the string
+         
+            e.g.  print(len(myName))
+                  =
+                  7
+     str(), int(). and float()
+      *remember to mental make the distinction if a number is acting as a int/float or a str
+      *the input() always returns a str so the int function is commonly used with the input()
+      *42 != '42' but 42 == 42.0000
+         str()
+            - when passed an integer value will evaluate to a string version of the integer
+            - 'you are' + 29 + 'years old' will throw and error becuase a str cant be added to an in but
+            - 'you are' + str(29) + 'years old works becuase it converts 29 into a str
+         int()
+            - when passed a string value eill rvaluate to a integer version of the string
+            - int('42') = 42 int('42.6') = 42
+         float()
+            - similar to the int() function but wont round out a decimal
       
+         think about this line of code
+            print('you will be' + str(int(myAge) + 1) + 'in a year.')
+        
+             
 
 
