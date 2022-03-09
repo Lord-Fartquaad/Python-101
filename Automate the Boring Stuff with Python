@@ -6,3 +6,13 @@ Tips
 - Besides indetation whitespaces dont matter 
 
 Math Operators
+  1.) Exponents "**" Exp. 2 ** 3 evaluates to 8
+  2.) Remainder "%" Exp. 6 % 3 evaluates to 0
+  3.) Integer Division "//" Exp. 6 ** 2.8 evaluates to 2
+  4.) Multiplication "*" Exp. 2 * 3 evaluates to 6
+  5.) Subtraction "-" Exp. 3 - 3 evaluates to 0
+  6.) Addition "+" Exp. 2 + 3 evaluates to 5
+  7.) Division "/" Exp. 22 / 8 evaluates to 2.75
+* Python does follow an order of operations simillar to math
+* parenthese can be used as an override like math
+
