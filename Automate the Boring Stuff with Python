@@ -4,6 +4,18 @@ Chapter #1
 
 Tips
 - Besides indetation whitespaces dont matter 
+- Every value has a data type
+
+Definitions
+- Data Types - A category for values e.g. integer
+- Integer(int) - Values that are whole numers e.g. -1, 0, 1
+- Floating-Point numbers(floats) - values that have a decimal e.g. 1.0, 0.5, 1.234
+- Strings(strs pronounced 'stirs') - text values e.g. 'a', '3', 'hello world'
+- Variable - a way to store a single value
+- Assignment  Statements - how you define what value is being stored in a variable
+- File Editor - where you type an edit instructions in a program
+- Interactive Shell - any shell process where you type commands and get back outputs from those commands
+   
 
 Math Operators
   1.) Exponents "**" Exp. 2 ** 3 evaluates to 8
@@ -14,5 +26,36 @@ Math Operators
   6.) Addition "+" Exp. 2 + 3 evaluates to 5
   7.) Division "/" Exp. 22 / 8 evaluates to 2.75
 * Python does follow an order of operations simillar to math
-* parenthese can be used as an override like math
+* parenthese can be used as an override to order of operations like math
+
+Strings
+  * Strings are always found within quotes
+Strings and Operators
+    * Operators change based on the data type e.g. 5 * 5 = 25 whereas 'alice' * 2 = 'alicealice'
+'+' = when used on string data types it conjoins them. however it cannot be used with a string type and int or floats 
+e.g. 'alice' + 'bob' = 'alicebob'
+
+'*' = the multiplication operator can be used with a str and int or a int or float and int or float 
+so no 'alice' * 'bob'
+but 'alice' * 5 = 'alicealicealicealicealice'
+    * the operator when used with a str type duplicate that str by the int
+    * a str type and a floats type cannot be used together either
+    
+Variables 
+  Assignment  Statements - how you define what value is being stored in a variable
+    Consists of the variables name an equal sign and the value being stored e.g. spam = 42
+    The integer 42 is now stored within the variable spam e.g. spam + 2 = 44
+    Variables can be redefined later in the program
+    
+  Variable Names
+    *The name should describe the data contained in the variable
+    *Variable's names are case sensitive
+    Restrictions to variable names
+      - It cannot contain spaces
+      - it can only use letters, numbers, and underscores
+      - it cannot begin with a number
+    Camelcase is a way to name variables
+      Doesnt use underscores, starts the variable's name off with a lowercase, then each new name starts with a uppercase e.g. camel_case -> camelCase
+      
+
 
